@@ -1,0 +1,31 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "sendemail",
+        "location",
+        "pricerange",
+        "cuisine",
+        "emailaddress"
+      ]
+    },
+    "action_city": {
+      "slots": [
+        "city_type"
+      ]
+    },
+    "utter_goodbye": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.10.1",
+  "max_histories": [
+    5,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ]
+}

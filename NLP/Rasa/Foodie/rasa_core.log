@@ -1,0 +1,410 @@
+Rasa process starting
+/usr/local/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+/Users/gupsu02/Library/Python/3.6/lib/python/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Finished loading agent, starting input channel & server.
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'hi', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [None, None, None, {}, {'intent_hi': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.58.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'i am looking for food' with intent '{'name': 'i am looking for food', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 4 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [None, None, {}, {'intent_hi': 1.0, 'prev_action_listen': 1.0}, {'intent_i am looking for food': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_i am looking for food' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.63.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'i am looking for restaurant' with intent '{'name': 'i am looking for restaurant', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [None, {}, {'intent_hi': 1.0, 'prev_action_listen': 1.0}, {'intent_i am looking for food': 1.0, 'prev_action_listen': 1.0}, {'intent_i am looking for restaurant': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_i am looking for food' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_i am looking for restaurant' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.70.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+/usr/local/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+/Users/gupsu02/Library/Python/3.6/lib/python/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Finished loading agent, starting input channel & server.
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'hi', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [None, None, None, {}, {'intent_hi': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.58.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'i am looking for food' with intent '{'name': 'i am looking for food', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 4 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [None, None, {}, {'intent_hi': 1.0, 'prev_action_listen': 1.0}, {'prev_action_listen': 1.0, 'intent_i am looking for food': 1.0}]
+There is no memorised next action
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_i am looking for food' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.63.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'mumbai' with intent '{'name': 'mumbai', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [None, {}, {'intent_hi': 1.0, 'prev_action_listen': 1.0}, {'prev_action_listen': 1.0, 'intent_i am looking for food': 1.0}, {'prev_action_listen': 1.0, 'intent_mumbai': 1.0}]
+There is no memorised next action
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_i am looking for food' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_mumbai' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.70.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+/usr/local/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+/Users/gupsu02/Library/Python/3.6/lib/python/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Finished loading agent, starting input channel & server.
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'hi', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [None, None, None, {}, {'intent_hi': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.58.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+/usr/local/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+/Users/gupsu02/Library/Python/3.6/lib/python/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Finished loading agent, starting input channel & server.
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'hi', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [None, None, {}, {'prev_action_listen': 1.0, 'intent_hi': 1.0}]
+There is no memorised next action
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_greet' with prob 0.69.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi, How can I help you!, data: null)'
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_hi': 1.0}, {'prev_utter_greet': 1.0, 'intent_hi': 1.0}]
+There is no memorised next action
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.95.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'looking for food' with intent '{'name': 'looking for food', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_hi': 1.0}, {'prev_utter_greet': 1.0, 'intent_hi': 1.0}, {'intent_looking for food': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_looking for food' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_ask_location' with prob 0.93.
+Action 'utter_ask_location' ended with events '[]'
+Bot utterance 'BotUttered(text: In what location?, data: null)'
+Current tracker state [{'prev_action_listen': 1.0, 'intent_hi': 1.0}, {'prev_utter_greet': 1.0, 'intent_hi': 1.0}, {'intent_looking for food': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_ask_location': 1.0, 'intent_looking for food': 1.0}]
+There is no memorised next action
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_looking for food' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_looking for food' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'delhi' with intent '{'name': 'delhi', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 10 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [{'prev_utter_greet': 1.0, 'intent_hi': 1.0}, {'intent_looking for food': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_ask_location': 1.0, 'intent_looking for food': 1.0}, {'intent_delhi': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_looking for food' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_looking for food' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_delhi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_ask_cuisine' with prob 0.90.
+Action 'utter_ask_cuisine' ended with events '[]'
+Bot utterance 'BotUttered(text: what kind of cuisine would you like?, data: {
+  "buttons": [
+    {
+      "payload": "Chinese",
+      "title": "Chinese"
+    },
+    {
+      "payload": "Mexican",
+      "title": "Mexican"
+    },
+    {
+      "payload": "Italian",
+      "title": "Italian"
+    },
+    {
+      "payload": "American",
+      "title": "American"
+    },
+    {
+      "payload": "South Indian",
+      "title": "South Indian"
+    },
+    {
+      "payload": "North Indian",
+      "title": "North Indian"
+    }
+  ]
+})'
+Current tracker state [{'intent_looking for food': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_ask_location': 1.0, 'intent_looking for food': 1.0}, {'intent_delhi': 1.0, 'prev_action_listen': 1.0}, {'intent_delhi': 1.0, 'prev_utter_ask_cuisine': 1.0}]
+There is no memorised next action
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_looking for food' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_looking for food' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_delhi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_delhi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'North Indian' with intent '{'name': 'North Indian', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 14 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [{'prev_utter_ask_location': 1.0, 'intent_looking for food': 1.0}, {'intent_delhi': 1.0, 'prev_action_listen': 1.0}, {'intent_delhi': 1.0, 'prev_utter_ask_cuisine': 1.0}, {'prev_action_listen': 1.0, 'intent_North Indian': 1.0}]
+There is no memorised next action
+Feature 'intent_looking for food' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_looking for food' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_delhi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_delhi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_North Indian' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.78.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message '1' with intent '{'name': '1', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 16 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [{'intent_delhi': 1.0, 'prev_action_listen': 1.0}, {'intent_delhi': 1.0, 'prev_utter_ask_cuisine': 1.0}, {'prev_action_listen': 1.0, 'intent_North Indian': 1.0}, {'prev_action_listen': 1.0, 'intent_1': 1.0}]
+There is no memorised next action
+Feature 'intent_looking for food' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_delhi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_delhi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_North Indian' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_1' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.88.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message '2' with intent '{'name': '2', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 18 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [{'intent_delhi': 1.0, 'prev_utter_ask_cuisine': 1.0}, {'prev_action_listen': 1.0, 'intent_North Indian': 1.0}, {'prev_action_listen': 1.0, 'intent_1': 1.0}, {'intent_2': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Feature 'intent_delhi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_delhi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_North Indian' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_1' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_2' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.89.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message '300' with intent '{'name': '300', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 20 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [{'prev_action_listen': 1.0, 'intent_North Indian': 1.0}, {'prev_action_listen': 1.0, 'intent_1': 1.0}, {'intent_2': 1.0, 'prev_action_listen': 1.0}, {'intent_300': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Feature 'intent_delhi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_North Indian' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_1' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_2' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_300' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.78.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'hi' with intent '{'name': 'hi', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 22 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [{'prev_action_listen': 1.0, 'intent_1': 1.0}, {'intent_2': 1.0, 'prev_action_listen': 1.0}, {'intent_300': 1.0, 'prev_action_listen': 1.0}, {'prev_action_listen': 1.0, 'intent_hi': 1.0}]
+There is no memorised next action
+Feature 'intent_North Indian' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_1' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_2' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_300' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.76.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'bye' with intent '{'name': 'bye', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 24 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [{'intent_2': 1.0, 'prev_action_listen': 1.0}, {'intent_300': 1.0, 'prev_action_listen': 1.0}, {'prev_action_listen': 1.0, 'intent_hi': 1.0}, {'intent_bye': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Feature 'intent_1' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_2' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_300' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_bye' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.76.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'thanks' with intent '{'name': 'thanks', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 26 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [{'intent_300': 1.0, 'prev_action_listen': 1.0}, {'prev_action_listen': 1.0, 'intent_hi': 1.0}, {'intent_bye': 1.0, 'prev_action_listen': 1.0}, {'prev_action_listen': 1.0, 'intent_thanks': 1.0}]
+There is no memorised next action
+Feature 'intent_2' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_300' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_hi' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_bye' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'intent_thanks' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.76.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+/usr/local/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+
+/Users/gupsu02/Library/Python/3.6/lib/python/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Finished loading agent, starting input channel & server.
+Creating a new tracker for id 'default'.
+Received user message 'r u there?' with intent '{'name': 'r u there?', 'confidence': 1.0}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	cuisine: None
+	location: None
+	pricerange: None
+Current tracker state [None, None, None, {}, {'intent_r u there?': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Feature 'intent_r u there?' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 0.65.
+Action 'action_listen' ended with events '[]'
